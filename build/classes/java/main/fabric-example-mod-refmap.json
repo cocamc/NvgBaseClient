@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "net/coca/baseclient/mixin/MinecraftClient": {
+      "dispatchKeypresses": "Lnet/minecraft/class_1600;method_6639()V",
+      "runTick": "Lnet/minecraft/class_1600;method_2954()V",
+      "startGame": "Lnet/minecraft/class_1600;method_2921()V"
+    },
+    "net/coca/baseclient/mixin/renderer/InGameGuiMixin": {
+      "renderGameOverlay": "Lnet/minecraft/class_371;method_9420(F)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/coca/baseclient/mixin/MinecraftClient": {
+        "dispatchKeypresses": "Lnet/minecraft/class_1600;method_6639()V",
+        "runTick": "Lnet/minecraft/class_1600;method_2954()V",
+        "startGame": "Lnet/minecraft/class_1600;method_2921()V"
+      },
+      "net/coca/baseclient/mixin/renderer/InGameGuiMixin": {
+        "renderGameOverlay": "Lnet/minecraft/class_371;method_9420(F)V"
+      }
+    }
+  }
+}

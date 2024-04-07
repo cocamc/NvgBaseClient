@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.coca.baseclient.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MinecraftClient",
+    "nanovg.NVGPatcher",
+    "renderer.InGameGuiMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

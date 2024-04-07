@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "baseclient",
+  "version": "1.0.0",
+  "name": "Base Client",
+  "description": "This is a simple base-client built with nanovg",
+  "authors": [
+    "Coca!"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/baseclient/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.coca.baseclient.Client"
+    ]
+  },
+  "mixins": [
+    "baseclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.8.9"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
